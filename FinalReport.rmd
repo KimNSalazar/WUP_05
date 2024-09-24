@@ -46,6 +46,15 @@ The graph above is a visual graph of females only. It shows that females who too
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+table1 <- xtabs(~infected + treatment, data=triUmp)
+rowPerc(table1)
+colPerc(table1)
+```
+In the visual numerical graph results the percentage in the group that did'nt get aids. The percentage is close to 41%. We can see that the percentage in the group that didn't get iads is close to 41%. When you look at the people who got aids they are close to 60%.
+
+
+
 
 ## Inferential Results
 
