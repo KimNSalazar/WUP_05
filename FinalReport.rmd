@@ -51,7 +51,7 @@ table1 <- xtabs(~infected + treatment, data=triUmp)
 rowPerc(table1)
 colPerc(table1)
 ```
-In the visual numerical graph results the percentage in the group that did'nt get aids. The percentage is close to 41%. We can see that the percentage in the group that didn't get iads is close to 41%. When you look at the people who got aids they are close to 60%.
+In the visual numerical graph results the percentage in the group that didn't get aids. The percentage is close to 41%. We can see that the percentage in the group that didn't get aids is close to 41%. When you look at the people who got aids they are close to 60%.
 
 
 
